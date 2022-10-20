@@ -1,0 +1,62 @@
+.login {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+    background: #244B5C;
+    background-image: radial-gradient(779.26px at 57.58% 45.41%, #FFFFFF 0%, rgba(36, 75, 92, 0.7) 100%);
+    background-blend-mode: multiply;
+}
+
+.card-login {
+    display: block;
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 120px;
+    padding: 24px 0px;
+    background: rgba(0, 0, 0, 0.24);
+    color: #FCFAFB;
+}
+
+@media(min-width:1200px) {
+    .card-login {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: calc(100% - 48px)
+    }
+}
+
+.card-title-login {
+    display: block;
+    position: relative;
+    padding: 36px 0 0 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 150%;
+}
+
+.card-text-login {
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 0 36px 0 36px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+.login_button {
+    position: relative;
+    left: 30%;
+    transform: translateX(-50%);
+    display: inline-block;
+}

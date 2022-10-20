@@ -1,0 +1,17 @@
+.dashboard-objective{
+    position: relative;
+    width: calc(100vw - 48px);
+    background: white;
+    left: 24px;
+    top: 24px;
+    height: calc(100vh - 116px);
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.18);
+    /* overflow-y: scroll; */
+}
+
+@media (min-width: 800px) and (max-width: 1600px){
+    .dashboard-objective{
+        /* height: calc(100vh - 116px); */
+        /* overflow-y: scroll; */
+    }
+}

@@ -1,0 +1,13 @@
+.dashboard-body {
+    padding: 24px;
+    background: #FFFFFF;
+    height: calc(100vh - 340px);
+    /* width: 100%; */
+    /* overflow-y: scroll; */
+}
+
+@media (min-width: 800px) and (max-width: 1600px){
+    .dashboard-body{
+        height: auto;
+    }
+}

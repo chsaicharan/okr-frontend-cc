@@ -1,0 +1,231 @@
+.checks {
+    font-size: 18px;
+    font-family: Cabin, sans-serif;
+    line-height: 150%;
+    color: #3B464B;
+    margin-top: 24px;
+}
+
+.checks-title {
+    background: #E9EAEB;
+    border-radius: 4px 4px 0px 0px;
+    padding: 24px;
+    display: flex;
+}
+
+.title-header-checks {
+    width: 82%;
+    margin: 0;
+    text-align: start;
+    padding-left: 24px;
+}
+
+.title-status {
+    position: relative;
+    display: flex;
+    right: -30px;
+    width: 15%;
+    margin: 0;
+}
+
+.check-error {
+    font-size: 12px;
+    color: red;
+    margin: 8px 8px 8px 48px;
+}
+
+.check-body-even-content {
+    display: flex;
+    background: #f7f7f7;
+    padding: 24px 24px 0px 24px;
+}
+
+.check-body-odd-content {
+    display: flex;
+    background: white;
+    padding: 24px 24px 0px 24px;
+}
+
+.check-content {
+    padding-left: 8px;
+    font-family: Cabin, sans-serif;
+    width: 82%;
+    font-size: 16px;
+    line-height: 150%;
+    color: #676F73;
+    margin-left: 12px;
+    text-align: left;
+}
+
+.check-alert {
+    padding-left: 12px;
+    font-family: Cabin, sans-serif;
+    width: 75%;
+    font-size: 16px;
+    line-height: 150%;
+    color: red;
+}
+
+.check-status {
+    position: relative;
+    /* display: flex; */
+    right: 30px;
+    font-family: Cabin, sans-serif;
+    font-size: 16px;
+    line-height: 150%;
+    color: #27AE60;
+    width: 15%;
+    top: -14px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.warning {
+    color: #F2994A;
+    padding-left: 0;
+    right: 36px;
+}
+
+.alert-check {
+    color: #EB5757;
+    padding-left: 8px;
+    right: 32px;
+}
+
+.add-check {
+    padding: 12px 24px;
+}
+
+.form-check {
+    /* padding: 24px 24px 12px 24px; */
+    padding: 24px 0 8px 0;
+    background: #FFFFFF;
+    border-radius: 4px;
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.12);
+}
+
+.form-input-check {
+    width: 95%;
+    background: #E9EAEB;
+    opacity: 0.75;
+    padding: .375rem .75rem;
+    border-radius: 4px;
+    border-width: 0;
+    margin-left: 24px;
+    height: 36px;
+}
+
+.select-status {
+    position: absolute;
+    /* left: 300px; */
+    right: 64px;
+    width: 128px;
+    /* width: max-content; */
+    background:#FEF5EC;
+    border: 1px solid #A8ADAF;
+    opacity: 0.7;
+    height: 36px;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+
+.divider-checks{
+    margin-top: 0.5rem;
+}
+
+.add-check-buttons {
+    margin: 12px 0;
+    position: relative;
+}
+
+.add-check-button {
+    /* position: absolute; */
+    /* right: 64px; */
+    background: #ED8012;
+    border: 1px solid #ED8012;
+    box-sizing: border-box;
+    border-radius: 4px;
+    width: 90px;
+    color: #FFFFFF;
+    margin-bottom: 12px;
+    font-size: 16px;
+    margin-right: 24px;
+}
+
+.cancel-check-button {
+    font-size: 16px;
+    /* position: relative; */
+    /* left: calc(100% - 204px); */
+    background: #FFFFFF;
+    color: #ed8012;
+    border: 1px solid #BDC1C3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin-bottom: 12px;
+    width: 80px;
+}
+
+.new-check-button {
+    font-size: 14px;
+    background: #FFFFFF;
+    border: 1px solid #BDC1C3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    margin: 12px 12px 12px 24px;
+    color: #ed8012;
+    font-family: Cabin, sans-serif;
+}
+
+.check-nxt-button {
+    position: relative;
+    display: inline-block;
+    color: #ed8012;
+    border-radius: 0;
+    border-width: 0;
+    height: 30px;
+    background: transparent;
+    right: -12px;
+    top: 0;
+}
+
+.add-check-section{
+    background: #f7f7f7;
+    text-align-last: left;
+}
+
+.check-form{
+    padding: 24px;
+}
+
+.check-prev-button {
+    position: relative;
+    display: inline-block;
+    color: #ed8012;
+    border-radius: 0;
+    border-width: 0;
+    height: 30px;
+    background: transparent;
+    right: 36px;
+    top: 0;
+}
+
+.check-prev-button:focus {
+    outline: none;
+}
+
+.prev-button-warning {
+    right: 38px
+}
+
+.change-checks-status {
+    display: flex;
+    margin-left: 24px;
+}
+
+.button-div {
+    text-align-last: center;
+}
+
+.col-md-11 {
+    width: 75%;
+}

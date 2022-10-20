@@ -1,0 +1,216 @@
+.header {
+    background-color: white;
+  }
+  
+  .add-obj-title {
+    font-family: Cabin, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #3B464B;
+    top: 10px;
+    left: 0%;
+    position: relative;
+  }
+  
+  .add-obj {
+    position: absolute;
+    top: 47px;
+    right: 360px;
+    width: 144px;
+    height: 40px;
+    background: #FFFFFF;
+    color: #ED8012;
+    border: 1px solid #ED8012;
+    box-sizing: border-box;
+    border-radius: 4px;
+  }
+  
+  .modal-lg {
+    width: 1000px;
+    max-width: 1900px;
+  }
+  
+  /* .submit-button {
+    background-color: #ED8012;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid orange;
+    height: 40px;
+    left: 0%;
+    top: 0px;
+    position: relative;
+    width: 110px;
+  }
+  
+  .btn-secondary {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 730px;
+    top: 16px;
+    background: #FFFFFF;
+    border: 1px solid #BDC1C3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: orange;
+  } */
+  
+  .objective-input {
+    width: 89%;
+    padding: .375rem .75rem;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ED8012;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .keyResult {
+    width: 80%;
+    padding: .375rem .75rem;
+    margin: 8px 0 0 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .confidence-input-field {
+    width: 50%;
+    padding: .375rem .75rem;
+    margin: 8px 0 0 8px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .keyresult-error {
+    font-size: 12px;
+    color: red;
+    position: relative;
+    left: 30%;
+    margin: 0;
+  }
+  
+  .confidence-error {
+    font-size: 12px;
+    left: 30%;
+    color: red;
+    position: relative;
+    margin: 0;
+  }
+  
+  .error-objective {
+    font-size: 12px;
+    color: red;
+    margin: 0;
+    position: relative;
+    left: 15%;
+  }
+  
+  .remove-button {
+    position: relative;
+    border: 0;
+    background: #F7F7F7;
+    color: #ED8012;
+    height: 32px;
+    margin: 14px 0 0 0;
+  }
+  
+  .keyresult-add-button {
+    position: relative;
+    width: 222px;
+    height: 40px;
+    left: 7%;
+    top: 9px;
+    background: #FFFFFF;
+    border: 1px solid #BDC1C3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: #ed8012;
+    margin: 5px 0 0 46px;
+  }
+  
+  .add-obj-header {
+    background: #F7F7F7;
+  }
+  
+  .read-only-fields {
+    background: rgba(237, 128, 18, 0.08);
+    border: 1px solid #A8ADAF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    padding: 8px 24px 8px 16px;
+    font-size: 14px;
+    width: 60%;
+  }
+  
+  .obj-alignment {
+    padding: 12px 0 12px 40px;
+    color: #676F73;
+  }
+  
+  .keyresult-formatting {
+    background: #F7F7F7;
+    border-radius: 4px;
+    margin: 24px 0 24px 0;
+    padding: 12px 0 24px 0;
+  }
+  
+  .kr-input {
+    margin-left: 24px;
+    color: #676F73;
+  }
+  
+  .table-kr {
+    width: 65%;
+  }
+  
+  .table-confidence {
+    width: 30%
+  }
+  
+  .confidence-level {
+    color: #676F73;
+  }
+  
+  .objective-input-title {
+    color: #676F73;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .col-md-4 {
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+  }
+
+  .submit-button {
+    background-color: #ED8012;
+    border-radius: 4px;
+    color: white;
+    border: 1px solid orange;
+    height: 40px;
+    left: 29%;
+    top: 0px;
+    position: relative;
+    width: 130px;
+}
+
+.cancel-button {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    left: 85%;
+    /* top: 16px; */
+    background: #FFFFFF;
+    border: 1px solid #BDC1C3;
+    box-sizing: border-box;
+    border-radius: 4px;
+    color: orange;
+}

@@ -1,0 +1,43 @@
+.title-container {
+    padding: 24px;
+    background-color: #F7F7F7;
+}
+
+.objective-title {
+    font-size: 20px;
+    color: #474540;
+    margin-right: 24px;
+    font-family: Cabin, sans-serif;
+    font-weight: 500;
+    text-align: start;
+}
+
+.objective-details {
+    display: flex;
+    flex-direction: row;
+    padding: 24px 24px 24px 0;
+    justify-content: space-around;
+}
+
+ .objective-details-title {
+    font-family: Cabin, sans-serif;
+    font-size: 14px;
+    line-height: 150%;
+    color: #CBB477;
+    padding: 0;
+    margin-bottom: 6px;
+}
+
+.objective-details-content {
+    font-size: 14px;
+    line-height: 150%;
+    color: #676F73;
+}
+
+.columnn {
+    width: 146px;
+    width: 20%;
+    float: left;
+    margin: 24px 0 0 24px;
+    text-transform: uppercase;
+}

@@ -1,0 +1,66 @@
+.navigation-header {
+    position: relative;
+    width: 100vw;
+    height: 50px;
+    background-color: #4A575D;
+}
+
+.navigation-header-text {
+    font-family: Cabin, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFEFC;
+    padding: 20px 24px 6px 48px;
+    position: absolute;
+    right: 0;
+    /* margin: 24px; */
+}
+
+.navigation-header-shadow {
+    height: 180px;
+    background-color: #244B5C;
+}
+
+.logout {
+    position: relative;
+    background-color: #244B5C;
+    border: 0px;
+    color: white;
+    padding: 6px 6px 6px 0 ;
+    height: auto;
+    top: 0px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    vertical-align: bottom;
+}
+
+.button-space {
+    padding: 12px;
+    position: relative;
+    left: 30px;
+}
+
+.navigation-header-nav {
+    display: flex;
+}
+
+.navigation-header-buttons {
+    padding: 12px;
+    margin-left: 12px;
+    font-weight: 500;
+    color: #FFFEFC;
+}
+
+.button-navigations{
+    cursor: pointer;
+}
+
+.navigation-line{
+    margin: 12px;
+    color: #BDC1C3;
+}

@@ -1,0 +1,14 @@
+.logo-header {
+    position: relative;
+    background-color: #263238;
+    /* width: 100vw; */
+    padding: 4px 24px;
+    font-family: Expletus Sans,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
