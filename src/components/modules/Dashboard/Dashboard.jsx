@@ -12,12 +12,16 @@ export default function Dashboard() {
   const [currentObjective, setCurrentObjective] = useState({});
 
   useEffect(() => {
+    getObjective();
+  }, []);
+
+  function getObjective() {
     axios.get(`${baseUrl}/objectives`, { headers: Headers }).then((res) => {
       setCurrentObjective(res.data[0] || []);
       setLoading(false);
     });
-  }, []);
-  console.log(currentObjective);
+  }
+
   return (
     <div>
       <LogoHeader />
@@ -35,7 +39,7 @@ export default function Dashboard() {
           />
         </div>
       ) : currentObjective.length === 0 ? (
-        <AddObjective />
+        <AddObjective getObjective={getObjective} />
       ) : (
         <ObjectiveDetail currentObjective={currentObjective} />
       )}

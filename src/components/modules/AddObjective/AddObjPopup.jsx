@@ -237,14 +237,18 @@ export default class AddObjPopup extends React.Component {
     dataObject.status = 0;
     // ObjectiveService.addObjective(dataObject, this.state.objective, temp);
     // console.log(dataObject, this.state.objective, temp);
-    axios.post(
-      `${baseUrl}/objective`,
-      {
-        objective: this.state.objective,
-        keyResults: temp,
-      },
-      { headers: Headers }
-    );
+    axios
+      .post(
+        `${baseUrl}/objective`,
+        {
+          objective: this.state.objective,
+          keyResults: temp,
+        },
+        { headers: Headers }
+      )
+      .then((res) => {
+        this.props.getObjective();
+      });
     this.setState({
       objective: "",
       values: [],
